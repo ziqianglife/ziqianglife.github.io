@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ziqianglife.github.io/family/index.html</loc>
+    <loc>https://ziqiang.life/posts/3f8c2a1d.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/treasure/index.html</loc>
+    <loc>https://ziqiang.life/posts/5ffaf640.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/activities/index.html</loc>
+    <loc>https://ziqiang.life/family/index.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/about/index.html</loc>
+    <loc>https://ziqiang.life/treasure/index.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/posts/a4e78fee.html</loc>
+    <loc>https://ziqiang.life/activities/index.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/posts/dcc97b61.html</loc>
+    <loc>https://ziqiang.life/about/index.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/posts/78c7e29a.html</loc>
+    <loc>https://ziqiang.life/posts/a4e78fee.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/comments/index.html</loc>
+    <loc>https://ziqiang.life/posts/dcc97b61.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -74,7 +74,25 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/tags/index.html</loc>
+    <loc>https://ziqiang.life/posts/78c7e29a.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ziqiang.life/comments/index.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ziqiang.life/tags/index.html</loc>
     
     <lastmod>2025-12-13</lastmod>
     
@@ -83,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/categories/index.html</loc>
+    <loc>https://ziqiang.life/categories/index.html</loc>
     
     <lastmod>2025-12-13</lastmod>
     
@@ -93,7 +111,7 @@
   
 
   <url>
-    <loc>https://ziqianglife.github.io/</loc>
+    <loc>https://ziqiang.life/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -101,21 +119,42 @@
 
   
   <url>
-    <loc>https://ziqianglife.github.io/tags/%E6%A8%A1%E6%9D%BF/</loc>
+    <loc>https://ziqiang.life/tags/%E6%A8%A1%E6%9D%BF/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/tags/%E5%85%AC%E5%91%8A/</loc>
+    <loc>https://ziqiang.life/tags/%E5%85%AC%E5%91%8A/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/tags/%E5%AE%B6%E6%96%87%E5%8C%96/</loc>
+    <loc>https://ziqiang.life/tags/%E5%AE%B6%E6%96%87%E5%8C%96/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ziqiang.life/tags/%E6%B4%BB%E5%8A%A8%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ziqiang.life/tags/%E8%87%B4%E8%BF%9C%E5%88%86%E7%A4%BE/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ziqiang.life/tags/%E5%88%86%E7%A4%BE%E4%BE%8B%E4%BC%9A/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -124,14 +163,21 @@
 
   
   <url>
-    <loc>https://ziqianglife.github.io/categories/%E7%A4%BE%E5%91%98%E5%88%86%E4%BA%AB/</loc>
+    <loc>https://ziqiang.life/categories/%E7%A4%BE%E5%91%98%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ziqianglife.github.io/categories/%E6%B4%BB%E5%8A%A8%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://ziqiang.life/categories/%E6%B4%BB%E5%8A%A8%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ziqiang.life/categories/%E7%A4%BE%E5%9B%A2%E6%B4%BB%E5%8A%A8/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
