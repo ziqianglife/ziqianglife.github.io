@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | 新长城四川大学自强社")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | 自强记事录")[0];
 }
 
 function scrollToTop() {
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2008-2026 新长城四川大学自强社",
+    "©2008-2026 自强记事录",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by 新长城四川大学自强社 %c 欢迎回家",
+      "%c ⚡ Powered by 自强记事录 %c 欢迎回家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,10 +1282,10 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var siteTitle = "新长城四川大学自强社";
+    var siteTitle = "自强记事录";
     var suffix = "| " + siteTitle;
     var subTitle = title.endsWith(suffix) ? title.substring(0, title.length - suffix.length) : title;
-    navigator.clipboard.writeText('新长城四川大学自强社站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎回家');
+    navigator.clipboard.writeText('自强记事录站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎回家');
     new Vue({
       data: function () {
         this.$notify({
