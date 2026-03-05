@@ -4,7 +4,16 @@
   <url>
     <loc>https://ziqiang.life/links/index.html</loc>
     
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ziqiang.life/posts/3f8c2a1d.html</loc>
+    
+    <lastmod>2026-03-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,34 +56,7 @@
   </url>
   
   <url>
-    <loc>https://ziqiang.life/posts/3f8c2a1d.html</loc>
-    
-    <lastmod>2026-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ziqiang.life/family/index.html</loc>
-    
-    <lastmod>2026-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ziqiang.life/treasure/index.html</loc>
-    
-    <lastmod>2026-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ziqiang.life/activities/index.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -100,19 +82,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://ziqiang.life/categories/index.html</loc>
-    
-    <lastmod>2025-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://ziqiang.life/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,21 +93,21 @@
   
   <url>
     <loc>https://ziqiang.life/tags/%E6%B4%BB%E5%8A%A8%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ziqiang.life/tags/%E8%87%B4%E8%BF%9C%E5%88%86%E7%A4%BE/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ziqiang.life/tags/%E5%88%86%E7%A4%BE%E4%BE%8B%E4%BC%9A/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -143,7 +116,7 @@
   
   <url>
     <loc>https://ziqiang.life/categories/%E7%A4%BE%E5%9B%A2%E6%B4%BB%E5%8A%A8/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
