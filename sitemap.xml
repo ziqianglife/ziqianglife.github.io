@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ziqiang.life/comments/index.html</loc>
+    
+    <lastmod>2026-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ziqiang.life/games/index.html</loc>
     
     <lastmod>2026-03-05</lastmod>
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://ziqiang.life/games/05-%E8%90%9D%E5%8D%9C%E8%B9%B2.html</loc>
+    <loc>https://ziqiang.life/games/04-%E4%BC%A0%E7%90%83%E6%B8%B8%E6%88%8F.html</loc>
     
     <lastmod>2026-03-05</lastmod>
     
@@ -92,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://ziqiang.life/games/04-%E4%BC%A0%E7%90%83%E6%B8%B8%E6%88%8F.html</loc>
+    <loc>https://ziqiang.life/games/05-%E8%90%9D%E5%8D%9C%E8%B9%B2.html</loc>
     
     <lastmod>2026-03-05</lastmod>
     
@@ -110,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://ziqiang.life/games/08-%E6%8B%94%E6%B2%B3%E6%AF%94%E8%B5%9B.html</loc>
+    <loc>https://ziqiang.life/games/07-%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94%E6%B8%B8%E6%88%8F.html</loc>
     
     <lastmod>2026-03-05</lastmod>
     
@@ -119,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://ziqiang.life/games/07-%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94%E6%B8%B8%E6%88%8F.html</loc>
+    <loc>https://ziqiang.life/games/08-%E6%8B%94%E6%B2%B3%E6%AF%94%E8%B5%9B.html</loc>
     
     <lastmod>2026-03-05</lastmod>
     
@@ -176,15 +185,6 @@
     <loc>https://ziqiang.life/about/index.html</loc>
     
     <lastmod>2026-03-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ziqiang.life/comments/index.html</loc>
-    
-    <lastmod>2026-02-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
