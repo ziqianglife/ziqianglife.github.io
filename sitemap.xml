@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ziqiang.life/family/index.html</loc>
+    
+    <lastmod>2026-04-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ziqiang.life/posts/f0b3a9e2.html</loc>
     
     <lastmod>2026-04-20</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://ziqiang.life/posts/d989b2f2.html</loc>
-    
-    <lastmod>2026-04-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ziqiang.life/family/index.html</loc>
     
     <lastmod>2026-04-11</lastmod>
     
