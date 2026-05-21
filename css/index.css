@@ -7649,7 +7649,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(/assets/avatar.png)
+  background: url(/assets/head.jpg)
     no-repeat center center;
   background-size: cover;
 }
@@ -9389,6 +9389,433 @@ hr:before {
 .github-badge img:hover {
   scale: 1.05;
   transition: all 0.3s ease-in-out;
+}
+
+/* 优秀学长学姐文章排版 */
+.senior-profile {
+  --senior-ink: #273043;
+  --senior-muted: #6b7280;
+  --senior-line: rgba(39, 48, 67, 0.12);
+  --senior-soft: rgba(255, 255, 255, 0.72);
+  --senior-accent: #2f7d68;
+  --senior-accent-2: #b35c35;
+  color: var(--senior-ink);
+}
+
+.senior-profile * {
+  box-sizing: border-box;
+}
+
+.senior-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 320px);
+  gap: 22px;
+  align-items: center;
+  margin: 0 0 18px;
+  padding: 24px;
+  border: 1px solid var(--senior-line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(47, 125, 104, 0.12), rgba(179, 92, 53, 0.1)),
+    rgba(255, 255, 255, 0.64);
+}
+
+.senior-kicker {
+  margin: 0 0 12px !important;
+  color: var(--senior-accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.senior-name {
+  margin: 0 0 12px !important;
+  color: var(--senior-ink);
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.senior-lead {
+  margin: 0 !important;
+  color: #374151;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.senior-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.senior-tags span,
+.senior-meta-card {
+  border: 1px solid var(--senior-line);
+  border-radius: 8px;
+  background: var(--senior-soft);
+}
+
+.senior-tags span {
+  padding: 5px 10px;
+  color: #344054;
+  font-size: 0.88rem;
+}
+
+.post-motto {
+  width: min(88%, 900px);
+  margin: 10px auto 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: clamp(1rem, 2.2vw, 1.45rem);
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: 0;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);
+}
+
+.senior-portrait {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 320px);
+  min-height: 0;
+  align-self: center;
+  justify-self: end;
+  margin: 0 !important;
+  overflow: hidden;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid var(--senior-line);
+}
+
+.senior-portrait img,
+.senior-story-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.senior-portrait img {
+  object-fit: contain;
+}
+
+.senior-portrait figcaption,
+.senior-story-photo figcaption {
+  display: none;
+}
+
+.senior-photo-placeholder {
+  display: grid;
+  min-height: 232px;
+  place-items: center;
+  padding: 24px;
+  color: var(--senior-muted);
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  background:
+    linear-gradient(135deg, rgba(47, 125, 104, 0.1), rgba(179, 92, 53, 0.08)),
+    repeating-linear-gradient(45deg, rgba(39, 48, 67, 0.04) 0, rgba(39, 48, 67, 0.04) 8px, transparent 8px, transparent 16px);
+}
+
+.senior-info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+
+.senior-meta-card {
+  padding: 14px;
+}
+
+.senior-meta-card strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--senior-accent);
+  font-size: 0.86rem;
+}
+
+.senior-meta-card span {
+  color: #374151;
+  line-height: 1.55;
+}
+
+.senior-section {
+  margin: 30px 0;
+}
+
+.senior-section-title {
+  margin: 0 0 14px !important;
+  padding-left: 0.35rem;
+  font-size: 1.45rem;
+  letter-spacing: 0;
+}
+
+.senior-section-title::before {
+  background: transparent;
+}
+
+.senior-awards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.senior-awards li,
+.senior-story-block,
+.senior-quote {
+  border: 1px solid var(--senior-line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.senior-awards li {
+  padding: 10px 12px;
+  line-height: 1.65;
+}
+
+.senior-awards li::before {
+  content: "荣誉";
+  display: inline-block;
+  margin-right: 8px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  color: #fff;
+  background: var(--senior-accent-2);
+  font-size: 0.76rem;
+}
+
+.senior-research li::before {
+  content: "成果";
+}
+
+.senior-story-block {
+  padding: 18px 20px;
+}
+
+.senior-story-block p {
+  margin: 0 0 1em !important;
+  line-height: 2;
+}
+
+.senior-story-block p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.senior-story-photo {
+  margin: 14px 0 22px !important;
+  overflow: hidden;
+  border: 1px solid var(--senior-line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.senior-story-photo .senior-photo-placeholder {
+  min-height: 260px;
+}
+
+.senior-story-photo img {
+  max-height: 460px;
+}
+
+.senior-story-photo-split {
+  width: min(86%, 760px);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.senior-quote {
+  margin: 24px 0 0;
+  padding: 18px 20px;
+  color: #344054;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.senior-quote strong {
+  color: var(--senior-accent);
+}
+
+[data-theme="dark"] .senior-profile {
+  --senior-ink: #e5e7eb;
+  --senior-muted: #a7b0be;
+  --senior-line: rgba(229, 231, 235, 0.16);
+  --senior-soft: rgba(17, 24, 39, 0.58);
+  --senior-accent: #6ec6aa;
+  --senior-accent-2: #d88a5f;
+}
+
+[data-theme="dark"] .senior-hero,
+[data-theme="dark"] .senior-meta-card,
+[data-theme="dark"] .senior-awards li,
+[data-theme="dark"] .senior-story-block,
+[data-theme="dark"] .senior-story-photo,
+[data-theme="dark"] .senior-quote {
+  background-color: rgba(17, 24, 39, 0.62);
+}
+
+[data-theme="dark"] .senior-lead,
+[data-theme="dark"] .senior-meta-card span,
+[data-theme="dark"] .senior-quote,
+[data-theme="dark"] .senior-tags span {
+  color: #d1d5db;
+}
+
+@media (max-width: 992px) {
+  .senior-hero {
+    grid-template-columns: minmax(0, 1.2fr) minmax(210px, 280px);
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .senior-portrait {
+    width: min(100%, 280px);
+  }
+
+  .senior-info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .senior-hero,
+  .senior-awards {
+    grid-template-columns: 1fr;
+  }
+
+  .post-motto {
+    width: min(92%, 680px);
+    margin-top: 8px;
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .senior-profile {
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+
+  .senior-hero {
+    gap: 14px;
+    margin: 4px 0 22px;
+    padding: 18px;
+  }
+
+  .senior-name {
+    margin-bottom: 10px !important;
+    font-size: 2.15rem;
+    line-height: 1.1;
+  }
+
+  .senior-lead {
+    font-size: 0.98rem;
+    line-height: 1.85;
+  }
+
+  .senior-portrait {
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  .senior-portrait img {
+    height: auto;
+    max-height: none;
+  }
+
+  .senior-portrait figcaption,
+  .senior-story-photo figcaption {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+  }
+
+  .senior-info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .senior-meta-card {
+    padding: 12px;
+  }
+
+  .senior-meta-card strong {
+    font-size: 0.82rem;
+  }
+
+  .senior-meta-card span {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .senior-section {
+    margin: 24px 0;
+  }
+
+  .senior-section-title {
+    margin-bottom: 12px !important;
+    font-size: 1.28rem;
+  }
+
+  .senior-awards {
+    gap: 8px;
+  }
+
+  .senior-awards li {
+    padding: 9px 10px;
+    font-size: 0.94rem;
+    line-height: 1.6;
+  }
+
+  .senior-story-block {
+    padding: 14px;
+  }
+
+  .senior-story-block p {
+    font-size: 0.98rem;
+    line-height: 1.9;
+  }
+
+  .senior-story-photo {
+    margin: 12px 0 18px !important;
+  }
+
+  .senior-story-photo img {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  .senior-quote {
+    margin-top: 18px;
+    padding: 14px;
+    font-size: 0.98rem;
+    line-height: 1.8;
+  }
+
+  .senior-story-photo-split {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .senior-hero {
+    padding: 14px;
+  }
+
+  .senior-name {
+    font-size: 1.9rem;
+  }
+
+  .senior-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .senior-portrait img {
+    height: auto;
+  }
 }
 
 .search-dialog {
