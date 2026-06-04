@@ -7577,16 +7577,18 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(/assets/card-bg.svg);
   background-repeat: no-repeat;
   background-attachment: inherit;
-  background-size: 100%;
+  background-position: center top;
+  background-size: cover;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
+  background-image: url(/assets/card-bg.svg);
   background-repeat: no-repeat;
   background-attachment: inherit;
-  background-size: 100%;
+  background-position: center top;
+  background-size: cover;
 }
 /* 头像呼吸灯 */
 [data-theme="light"] .avatar-img {
